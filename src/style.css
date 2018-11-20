@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+html,
+body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: #635F56;
+    font-family: 'Open Sans', sans-serif;
+    color: #494c4e;
+}
+
+#main {
+    margin: 10px 10px;
+    background-color: white;
+    padding-top: 2.5vw;
+    padding-bottom: 2vw;
+}
+
+h1, .navbar-brand,.nav-link {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+#about {
+    margin-left: 2.5vw;
+}
+
+#about-area {
+    margin-top: 8vw;
+}
+
+#me {
+    float: left;
+    vertical-align: middle;
+}
+
+#about-text {
+    font-size: 1.2em;
+}
+
+#projects {
+    margin-top: 8vw;
+}
+
+.navbar {
+    box-shadow: none;
+    color: #635F56;
+    padding-top: 2vw;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-left: 1vw;
+}
+
+.navbar-nav {
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-right: 1vw;
+
+}
+
+.nav-link {
+    color: #635F56;
+}
+
+.nav-link:hover {
+    color: #B88400;
+}
+
+#about {
+    padding: 10vw;
+}
+
+#project-title {
+    font-size: 1.8em;
+    padding-left: 2vw;
+    padding-bottom: 2vw;
+}
+
+.card-deck {
+    margin: 10px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.card-img-top {
+    margin: auto;
+    width: 350px;
+    height: 308px;
+}
+
+a {
+    color: #B88400;
+}
+
+.btn {
+    border: 0.5px solid #B88400;
+}
+
+
+
+#contact {
+    padding-top: 10vw;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+
+#contact-title {
+    padding-bottom: 2vw;
+}
+
+footer {
+    margin-top: 3vw;
+    border-top: 0.1vw solid lightgray;
+}
+
+
+
+.fa {
+    color: #635F56;
+    font-size: 2.5em;
+}
+
+.fa-envelope {
+    color: #B88400;
+}
+
+.fa:hover {
+    color: #B88400;
+}
+
+.page-footer {
+    display: flex;
+    align-content: center;
+    align-items: baseline;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
